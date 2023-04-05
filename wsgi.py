@@ -13,7 +13,7 @@ from cloud import engine
 APP_ID = os.environ['1IlcnkuFFB6rHZ4KYy5MbKWV-gzGzoHsz']
 APP_KEY = os.environ['hlDsz3kYtf4RNJ4p9WVuP3BL']
 MASTER_KEY = os.environ['i3NgjV7jh3tFofAFqqmqDAI4']
-PORT = int(os.environ['8000'])
+PORT = int(os.environ['80'])
 
 leancloud.init(APP_ID, app_key=APP_KEY, master_key=MASTER_KEY)
 # Set this to be True if you need to access LeanCloud services with Master Key.
